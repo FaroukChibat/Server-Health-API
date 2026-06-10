@@ -74,7 +74,7 @@ pip install fastapi uvicorn requests
 Start the API server:
 
 ```bash
-python -m uvicorn checkEtatServeur:app --reload
+python -m uvicorn ServerHealthAPI:app --reload
 ```
 
 Access Swagger UI:
